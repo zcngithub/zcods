@@ -1,5 +1,5 @@
 <idea-plugin>
-  <id>hu.aradipatrik.onedarknative</id>
+  <id>cim.github.zcgithub.zcods</id>
   <name>One Dark Native</name>
   <version>1.4</version>
   <vendor email="aradipatrik@gmail.com" url="">Aradi Patrik</vendor>
@@ -24,7 +24,7 @@
     <!-- Add your extensions here -->
     <!-- themeProvider id="03a46e74-b73d-475c-a97a-758ca600f2c2"
                    path="/one-dark-native.theme.json"/ -->
-    <themeProvider id="03a46e74-b73d-475c-a97a-758ca600f2c2"
+    <themeProvider id="cim.github.zcgithub.zcods"
                    path="/one-dark-native.theme.json" />
   </extensions>
 
