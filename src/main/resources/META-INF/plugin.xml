@@ -2,19 +2,19 @@
   <id>cin.github.zcgithub.zcods</id>
   <name>One Dark Native</name>
   <version>1.4</version>
-  <vendor email="aradipatrik@gmail.com" url="">Aradi Patrik</vendor>
+  <vendor email="zekicin@gmail.com" url="">Aradi Patrik</vendor>
 
   <description><![CDATA[
-      This color theme try to recreate the theme of the Atom text editor, One Dark, using the new native theme support.
-      Repo: https://github.com/AradiPatrik/one-dark-native-intellij
+      Bu Theme "One Dark Theme" üzerinde değişiklikler yaparak yeni şekle çevirdiğim bir "Zcods.theme" adını verdiğim Clion themesidir.
+      Repo: https://github.com/zcgithub/zcods
     ]]></description>
 
   <change-notes><![CDATA[
-      Remove harsh indent guides, so they are not as emphasized anymore
+      Gönül rahatlığıyla kulanabilrisiniz.
   ]]></change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="173.0"/>
+  <idea-version since-build="zc01"/>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
