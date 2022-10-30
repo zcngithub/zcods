@@ -1,18 +1,35 @@
-<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.zcngithub.zcods</id>
-    <name>zcods</name>
-    <vendor>zcngithub</vendor>
+  <id>hu.aradipatrik.onedarknative</id>
+  <name>One Dark Native</name>
+  <version>1.4</version>
+  <vendor email="aradipatrik@gmail.com" url="">Aradi Patrik</vendor>
 
-    <depends>com.intellij.modules.platform</depends>
+  <description><![CDATA[
+      This color theme try to recreate the theme of the Atom text editor, One Dark, using the new native theme support.
+      Repo: https://github.com/AradiPatrik/one-dark-native-intellij
+    ]]></description>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.zcngithub.zcods.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.zcngithub.zcods.services.MyProjectService"/>
-    </extensions>
+  <change-notes><![CDATA[
+      Remove harsh indent guides, so they are not as emphasized anymore
+  ]]></change-notes>
 
-    <applicationListeners>
-        <listener class="com.github.zcngithub.zcods.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <!-- themeProvider id="03a46e74-b73d-475c-a97a-758ca600f2c2"
+                   path="/one-dark-native.theme.json"/ -->
+    <themeProvider id="03a46e74-b73d-475c-a97a-758ca600f2c2"
+                   path="/one-dark-native.theme.json" />
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
 </idea-plugin>
